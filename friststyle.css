@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    background:#f1e189;
+    margin: 0px;
+    padding:0px;
+}
+
+.head{
+   background:  #01c5c4;
+    display:flex;
+    position: relative;
+    width: 100% ;
+    margin: 0px; 
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 10px;
+}
+.header{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight:600;
+    text-align: center;
+     position: relative;
+    left: 20px;
+    top:40px;
+    font-family: Segoe,"Segoe", 'Segoe UI';
+    text-transform: uppercase;
+}
+.nav-content {
+    font-size: 20px;
+	position: relative;
+	display: inline-block;
+    left:30px;
+    bottom: 70px;
+    padding: 8px 12px;
+    font-family: Segoe,"Segoe", 'Segoe UI';
+    text-transform: uppercase;
+}
+a{
+     list-style-type: none;
+	text-decoration: none;
+    background-color:#01c5c4 ;
+	color: white;		
+}
+a:hover{
+    background-color: #f39233; 
+	
+}
+.nav-content a{
+    list-style-type: none;
+	text-decoration: none;
+}
+.form{
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 20px; 
+}
+.desc{
+    position: relative;
+    left:19px;
+    top:8px;
+    background: #b8de6f;
+    width: 89%;
+    display: block;
+    padding: 10px 50px 10px 50px;
+}
+.aim{
+ font-family: Segoe,"Segoe", 'Segoe UI';
+    font-size: 35px;
+    font-weight: bold;
+    color: #f39233; 
+    text-align: left;
+    text-transform: uppercase;
+}
+.p{
+    font-family: Segoe,"Segoe", 'Segoe UI';
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+      
+}
+.button{
+position: relative;
+left:450px;
+top: 20px;
+width: 30%;
+font-size: 30px;
+background: #f39233 ;
+color: #fff;
+text-transform: uppercase;
+font-family: Segoe,"Segoe", 'Segoe UI';
+letter-spacing: 2px;
+transition: all 0.5s;
+border: none;
+}
+.button:hover {
+  background-color:#01c5c4 ;
+}

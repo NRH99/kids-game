@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: floralwhite;
+	color:brown;
+ 
+}
+h{
+    font-family: Segoe, "Segoe UI";
+    font-size: 20px;   
+}
+h1{
+    font-family: Segoe, "Segoe UI";
+    text-transform: uppercase;
+	color :rosybrown; 
+}
+p{
+    font-family: Segoe, "Segoe UI";
+	color: rosybrown; 
+}
+button{
+    padding: 10px 12px;
+    background-color: rosybrown;
+    color: white;
+    border: none;    
+}
+button:hover{
+    background: #D4B1B1;
+    border-style: solid;
+    border: #5C191A;
+}
